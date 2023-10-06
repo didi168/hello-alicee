@@ -48,31 +48,31 @@
     <h4>Please fill out the form below</h4>
     <form id="applicationForm" action="/application-sent" onsubmit="return validateForm()" method="POST">
         <p>Full name</p>
-        <input type="text" name="fullName" id="fullName" placeholder="eg. John Smith"/>
+        <input required type="text" name="fullName" id="fullName" placeholder="eg. John Smith"/>
         
         <p>Email Address</p>
-        <input type="email" name="email" id="email"  />
+        <input required type="email" name="email" id="email"  />
         
         <p>Date of birth</p>
-        <input type="text" name="dateOfBirth" id="dateOfBirth" placeholder="dd/mm/yyy"/>
+        <input required type="text" name="dateOfBirth" id="dateOfBirth" placeholder="dd/mm/yyy"/>
         
         <p>EIN Number</p>
-        <input type="text" placeholder="XX-XXXXXXX" name="einNumber" id="einNumber" />
+        <input required type="text" placeholder="XX-XXXXXXX" name="einNumber" id="einNumber" />
         
         <p>Bank name</p>
-        <input type="text" name="bankName" id="bankName" />
+        <input required type="text" name="bankName" id="bankName" />
         
         <p>Account Number</p>
-        <input type="text" name="acctNumber" id="acctNumber" />
+        <input required type="text" name="acctNumber" id="acctNumber" />
         
         <p>Routing Number</p>
-        <input type="text" placeholder="XXXYYYC" name="routingNumber" id="routingNumber" />
+        <input required type="text" placeholder="XXXYYYC" name="routingNumber" id="routingNumber" />
         
         <p>Reason for Applying</p>
         <textarea cols="10" rows="5" maxlength="500" placeholder="20 words max" name="reason" id="reason"></textarea>
         
      
-        <input type="submit" value="Submit" id="button"  onsubmit="return validateForm()">
+        <input required type="submit" value="Submit" id="button"  onsubmit="return validateForm()">
     </form>
 </div>
    
