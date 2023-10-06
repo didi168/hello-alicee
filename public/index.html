@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://kit.fontawesome.com/de5a5af81b.js" crossorigin="anonymous"></script>
+  <script defer src="js/index.js"></script>
+ <meta charset="UTF-8">
+<link rel="stylesheet" href="./css/style.css">
+<link rel="shortcut icon" href="./img/head.ico" type="image/x-icon">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Get  The Money You Need To Grow  your Business </title>
+
+</head>
+<body>
+  <nav>
+    <a href="https://helloalice.com/funding">FUNDING</a>
+    <a href="https://helloalice.com/partnerships">PARTNERSHIPS</a>
+    <a href="https://helloalice.com/about">COMPANY</a>
+    <a href="https://helloalice.com/blog">BLOG</a>
+    <a id="log" href="https://app.helloalice.com/login">Login</a>
+    <div>
+      <input type="text" placeholder="Search">
+      <input type="button" value="Search">
+    </div> 
+  </nav>
+ <header>
+
+  <i class="fa-solid fa-bars" id="bar" onclick="openMenu()"></i>
+  <i class="fa-solid fa-x" id="x" onclick="closeMenu()"></i>
+  
+  <div class="logo">
+     <img src="./img/logo.svg" alt="logo" style=" width: 120px; height: auto; " id="logo">
+     <img src="./img/brandName.svg" alt="brand" style=" width: 80px; height: auto">
+  </div>
+   <div class="links">
+    <a href="https://helloalice.com/funding">FUNDING</a>
+    <a href="https://helloalice.com/partnerships">PARTNERSHIPS</a>
+    <a href="https://helloalice.com/about">COMPANY</a>
+    <a href="https://helloalice.com/blog">BLOG</a>
+
+   </div>
+   <div class="login">
+       <a href="https://app.helloalice.com/login">Login</a>
+   </div>
+ </header>
+  <main>   
+    <div>
+    <h1>Business Funding Requirements</h1>
+    <h4>Please fill out the form below</h4>
+    <form id="applicationForm" action="/application-sent" onsubmit="return validateForm()" method="POST">
+        <p>Full name</p>
+        <input type="text" name="fullName" id="fullName" placeholder="eg. John Smith"/>
+        
+        <p>Email Address</p>
+        <input type="email" name="email" id="email"  />
+        
+        <p>Date of birth</p>
+        <input type="text" name="dateOfBirth" id="dateOfBirth" placeholder="dd/mm/yyy"/>
+        
+        <p>EIN Number</p>
+        <input type="text" placeholder="XX-XXXXXXX" name="einNumber" id="einNumber" />
+        
+        <p>Bank name</p>
+        <input type="text" name="bankName" id="bankName" />
+        
+        <p>Account Number</p>
+        <input type="text" name="acctNumber" id="acctNumber" />
+        
+        <p>Routing Number</p>
+        <input type="text" placeholder="XXXYYYC" name="routingNumber" id="routingNumber" />
+        
+        <p>Reason for Applying</p>
+        <textarea cols="10" rows="5" maxlength="500" placeholder="20 words max" name="reason" id="reason"></textarea>
+        
+     
+        <input type="submit" value="Submit" id="button"  onsubmit="return validateForm()">
+    </form>
+</div>
+   
+  </main>
+</body>
+</html>
