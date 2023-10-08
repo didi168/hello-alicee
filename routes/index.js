@@ -8,6 +8,10 @@ app.use(express.json())
 const path = require('path')
 const MailTranspoter = require('../config/mail')
 
+router.get('/', (request, response) => {
+    response.sendFile(path.join(__dirname, '../public/index.html'))
+})
+
 router.post('/application-sent', async (request, response) => {
     const userData = {
         fullname: request.body.fullName,
