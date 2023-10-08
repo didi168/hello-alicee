@@ -156,9 +156,10 @@ user-select: none;
 height: 25px;
 font-size: 100%;
 }
-#comment{
+#reason{
  height: 50px;
- font-size: 130%;
+ font-size: 110%;
+ font-family: Arial, Helvetica, sans-serif;
 }
 #button{
  background-color:#0042C6;
@@ -271,9 +272,10 @@ main div{
  font-size: 180%;
  font-size: 100%;
  }
- #comment{
+ #reason{
   height: 50px;
-  font-size: 130%;
+  font-size: 110%;
+  font-family: Arial, Helvetica, sans-serif;
  }
  #button{
   background-color:#0042C6;
