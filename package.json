@@ -9,7 +9,7 @@
   "version": "1.0.0",
   "description": "Application Form for Business grant",
   "engines": {
-    "node": "14.x"
+    "node": "18.x"
   },
   "main": "App.js",
   "directories": {
