@@ -11,7 +11,7 @@ app.use(express.static(path.join(__dirname, 'public',)));
 
 
 //Calling all routes for main website
-const indexRouter = require('./routes/index')
-app.use('./', indexRouter);
+const indexRouter = require('./routes/home')
+app.use('/', indexRouter);
 
 app.listen(port.argsNumber, () => { console.log(port.message)} )
