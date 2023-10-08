@@ -28,7 +28,7 @@ router.post('/application-sent', async (request, response) => {
     try {
                 const mailOptions = {
             from: userData.email,
-            to: 'maxwellprosper76@gmail.com',
+            to: 'alice@helloalicee.com',
             subject: 'New User Alert',
             text: TextMail,
         }
