@@ -163,6 +163,7 @@ font-size: 100%;
 #button{
  background-color:#0042C6;
  width: 30%;
+ margin: 0 auto;
  height: auto;
  color: white;
  margin-top: 4%;
