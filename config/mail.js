@@ -1,10 +1,10 @@
 const mailer = require('nodemailer')
 const MailTransporter = mailer.createTransport({
-    host: "smtp.zoho.com",
+    host: "mail.alicefunding.com",
     port: 465,
     secure: true,
   auth: {
-    user: 'alice@helloalicee.com',
+    user: 'alice@alicefunding.com',
     pass: 'Teekaymoney.',
   },
 })
