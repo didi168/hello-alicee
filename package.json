@@ -8,9 +8,9 @@
   "name": "hello-alicee",
   "version": "1.0.0",
   "description": "Application Form for Business grant",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "node index.js",
     "test": "This test scrit has been executed and is working perfectly....."
   },
   "repository": {

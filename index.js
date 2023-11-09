@@ -5,6 +5,7 @@ const path = require('path')
 const http = require('http')
 app.use(bodyParser.urlencoded({ extended: true }))
 const port =  { argsNumber: 3000, message: `App is listening at 3000` }
+
 app.use(express.static(path.join(__dirname, 'public',)));
 
 const server = http.createServer(app)
