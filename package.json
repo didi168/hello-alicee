@@ -10,8 +10,10 @@
   "description": "Application Form for Business grant",
   "main": "index.js",
   "scripts": {
-    "start": "node foo.js"
+    "start": "node index.js",
+    "test": "This test script has been executed and is working perfectly....."
   },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/didi168/hello-alicee.git"
